@@ -14,9 +14,9 @@ Nota: Hay 2 maneras de hacer esto, hacerlo bien o hacerlo mal.
 
 ## Implementación
 
-- Backend: con un archivo js (index.js) se ejecuta el archivo de bash (cmd.sh) el cual crea un archivo txt donde se guarda un email y se muestra el contenido del archivo en el frontend
+- Frontend: El terminal es el frontend, el usuario ingresa un comando en el terminal para ejecutar el script index.js, proporcionando un correo electrónico como argumento, el script index.js se ejecuta en el backend y se comunica con el script cmd.sh.
 
-- Frontend: ejecuta el archivo js y recibe el email, tambien despues de terminar muestra los correos
+- Backend: El script cmd.sh crea un archivo llamado "emails.txt" si no existe, el correo electrónico proporcionado como argumento se agrega al archivo "emails.txt", el contenido del archivo "emails.txt" se muestra en el frontend.
 
 ### Diagrama de paquetes
 
