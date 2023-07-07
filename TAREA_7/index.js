@@ -2,7 +2,7 @@ const { config } = require("./config")
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const loadEndpoint = require("./router/index");
+const loadEndpoint = require("./router");
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());

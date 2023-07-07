@@ -3,10 +3,8 @@ const exampleRouter = require("./example.router");
 
 
 const loadEndpoint = (app) => {
-  app.use("/api", router);
+  app.use("/api/v1", router);
   router.use("/", exampleRouter);
-  
-
 };
 
 module.exports = loadEndpoint;
