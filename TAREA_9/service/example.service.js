@@ -23,7 +23,6 @@ class ExampleService extends FileService {
 
   async updateData(fileName, fileType, newData){
     const files = await this.readDirectory();
-    console.log(files);
     if(files.includes(fileName+"."+fileType)){
 
       const data = await this.readFile(fileName, fileType);
