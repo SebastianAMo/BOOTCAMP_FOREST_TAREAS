@@ -1,10 +1,25 @@
-# Assigment #10
+# LISTA
 
-Vamos a retomar cositas de planificación antes de irnos de lleno a la codificación 🌲 Hay 2 formas de hacer esto, cumplir porque si o ayudarte a ti mism@ para el futuro 💫, la idea será la siguiente:
+1. ticket inicial de iniciar el proyecto usando npm, instalar dependecias
 
-Tomando los 4 diagramas de más abajo 🗺 debes de construir un "plan" de trabajo, para eso has de escribir todos los tickets 🎟 que encuentres entre los diagramas. Ten en cuenta que yo estimo unos 15, pero puede que tú encuentres más o menos 👍 no hay lío si te salen 20 u 8, el reto de esto es identificar las tareas que se necesitan 🎯
+2. ticket de archivo config.sh y .gitignore
 
-![Diagrama de componentes](./zorrospace-Components.drawio.png "Diagrama de componentes")
-![Diagrama de paquetes](./zorrospace-Packages.drawio.png "Diagrama de paquetes")
-![Diagrama de secuencia](./zorrospace-Sequence.drawio.png "Diagrama de secuencia")
-![Diagrama de estados](./zorrospace-States.drawio.png "Diagrama de estados")
+3. Crear .env.example con PORT y DATA_PATH
+
+4. Definir estructura de game_status
+
+5. Definir endpoints
+
+6. Iniciar el servidor con lo minimo en el index.js
+
+7. Crear carpeta router y archivos index.js y game.router.js
+
+8. Crear todos los endpoints y que solo devuelvan un mensaje de cual es el endpoint
+
+9. Crear carpeta game.service.js y file.service.js
+
+10. En file.service crear los metodos necesario de leer, escribir, editar (definir bien segun la estructura del .json ), delete
+
+11. Conectar file.service con game.service
+
+12. Concetar game.service con game.router
