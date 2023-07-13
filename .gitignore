@@ -1,10 +1,10 @@
 # Ignorar postgres-data de tarea 5
-TAREA_5/docker/postgres-data
+tarea_5/docker/postgres-data
 
 # Ignorar node_module
-TAREA_7/node_modules
-TAREA_8/node_modules
-TAREA_9/node_modules
-TAREA_10/node_modules
-TAREA_11/node_modules
-TAREA_12/node_modules
+tarea_7/node_modules
+tarea_8/node_modules
+tarea_9/node_modules
+tarea_10/node_modules
+tarea_11/node_modules
+tarea_12/node_modules
