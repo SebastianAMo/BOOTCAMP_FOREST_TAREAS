@@ -122,7 +122,7 @@ Vamos a retomar cositas de planificación antes de irnos de lleno a la codificac
 
 Tomando los 4 diagramas de más abajo 🗺 debes de construir un "plan" de trabajo, para eso has de escribir todos los tickets 🎟 que encuentres entre los diagramas. Ten en cuenta que yo estimo unos 15, pero puede que tú encuentres más o menos 👍 no hay lío si te salen 20 u 8, el reto de esto es identificar las tareas que se necesitan 🎯
 
-![Diagrama de componentes/assetsSSETS/zorrospace-Components.drawio.png "Diagrama de componentes")
+![Diagrama de componentes](./assets/zorrospace-Components.drawio.png "Diagrama de componentes")
 ![Diagrama de paquetes](./ASSETS/zorrospace-Packages.drawio.png "Diagrama de paquetes")
 ![Diagrama de secuencia](./ASSETS/zorrospace-Sequence.drawio.png "Diagrama de secuencia")
 ![Diagrama de estados](./ASSETS/zorrospace-States.drawio.png "Diagrama de estados")
