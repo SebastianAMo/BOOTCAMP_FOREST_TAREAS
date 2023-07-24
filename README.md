@@ -6,6 +6,23 @@ Este repositorio es para cargar tareas del bootcamp de la comunidad FOREST
 
 <https://github.com/F-O-R-E-S-T/web-bootcamp-2023>
 
+## Checklist
+
+- [x] Assigments 1
+- [] Assigments 2
+- [x] Assigments 3
+- [x] Assigments 4
+- [x] Assigments 5
+- [x] Assigments 6
+- [x] Assigments 7
+- [x] Assigments 8
+- [x] Assigments 9
+- [ ] Assigments 10
+- [x] Assigments 11
+- [x] Assigments 12
+- [ ] Assigments 13
+- [ ] Assigments 14
+
 ## Assigments 1
 
 ### A qué no puedes hacer esto antes de la siguiente clase 👀
@@ -126,3 +143,33 @@ Tomando los 4 diagramas de más abajo 🗺 debes de construir un "plan" de traba
 ![Diagrama de paquetes](./ASSETS/zorrospace-Packages.drawio.png "Diagrama de paquetes")
 ![Diagrama de secuencia](./ASSETS/zorrospace-Sequence.drawio.png "Diagrama de secuencia")
 ![Diagrama de estados](./ASSETS/zorrospace-States.drawio.png "Diagrama de estados")
+
+## Assignment #12
+
+Mapping, maps, mapas o cartografía; tiene muchos nombres pero se refieren a lo mismo 🗺
+
+Escoge una página, luego lleva esa página a una topografía facilita para ti, identifica que componentes se repiten y asigna colores a todo 🌈. Una vez tengas todo eso, crear el HTML que más se ajuste a esa topografía
+
+Recomendaciones:
+
+🌲 Volver a ver la parte 2 de la sesión anterior (Este video de la lista de reproducción [https://youtu.be/OHOWMBDUUVw])
+
+🌲 Revisar [https://htmlreference.io]
+
+## Assignment #13
+
+Para ser un/a frontend siempre hay que estar revisando el codigo que se escribe 🌲 por ende debes de saber hacer muchas cositas, unas de esas son las arquitecturas, por ello; hemos de leer un poco sobre el tema, les propongo leer las 2 arquitecturas más usadas ⛳️
+
+🍃 B-E_M: [https://en.bem.info/methodology/quick-start/]
+
+🍃 Atomic Design: [https://bradfrost.com/blog/post/atomic-web-design/]
+
+## Assigment #14: Proyecto - Parte 1: The blog
+
+Ya que hemos visto varias maneras de como se hace frontend, algo de CSS, algo de HTML y algo de JS para el frontend ¿Y si mezclamos todo? ⛳️
+
+🌲 Maqueta como quieres que se vea tu blog (Recuerda que lo mencionamos en la última sesión); como consejo sería bueno usar un mapa de topografía 🍃
+
+🌲 Crear una pequeña esctructura de como harás tu layout en HTML 🍃
+
+🌲 Crear una pequeña esctructura de como harás tu layout en CSS 🍃
