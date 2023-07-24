@@ -9,7 +9,7 @@ Este repositorio es para cargar tareas del bootcamp de la comunidad FOREST
 ## Checklist
 
 - [x] Assigments 1
-- [] Assigments 2
+- [ ] Assigments 2
 - [x] Assigments 3
 - [x] Assigments 4
 - [x] Assigments 5
