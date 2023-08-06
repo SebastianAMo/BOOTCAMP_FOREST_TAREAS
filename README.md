@@ -17,7 +17,7 @@ Este repositorio es para cargar tareas del bootcamp de la comunidad FOREST
 - [x] Assigments 7
 - [x] Assigments 8
 - [x] Assigments 9
-- [ ] Assigments 10
+- [x] Assigments 10
 - [x] Assigments 11
 - [x] Assigments 12
 - [ ] Assigments 13
