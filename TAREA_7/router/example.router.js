@@ -20,7 +20,7 @@ router.get("/test", (req, res, err) => {
 */
 router.post("/example", (req, res, err) => {
   try {
-    exec(`bash monkey1.sh ${req.body.title}`, (err, stdout, stderr) => {
+    exec(`bash monkey.sh ${req.body.title}`, (err, stdout, stderr) => {
       if (err) {
         console.error(
           "[error-message]: Ocurrio un error en el proceso de creacion"
@@ -48,7 +48,7 @@ router.post("/example", (req, res, err) => {
 router.put("/example", (req, res, err) => {
   try {
     exec(
-      `bash monkey_update1.sh ${req.body.update.split(" ")[0]} ${
+      `bash monkey_update.sh ${req.body.update.split(" ")[0]} ${
         req.body.update.split(" ")[1]
       }`,
       (err, stdout, stderr) => {
