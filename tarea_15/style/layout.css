@@ -1,0 +1,38 @@
+.wrapper--grid {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "hedr hedr hedr"
+    "cont cont recr"
+    "cont cont recr"
+    "cont cont recr"
+    "abot abot abot"
+    "fter fter fter";
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(6, auto);
+}
+
+.header {
+  grid-area: hedr;
+}
+
+.main-content {
+  grid-area: cont;
+  background-color: lightblue;
+  height: 200px;
+}
+
+.recording {
+  grid-area: recr;
+  background-color: lightblue;
+}
+
+.about-section {
+  grid-area: abot;
+  background-color: #80CCED;
+}
+
+.footer-section {
+  grid-area: fter;
+  background-color: rgb(117, 184, 206);
+}

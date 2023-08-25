@@ -1,0 +1,38 @@
+.recording {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.recording__record-button {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 10px;
+  transition: background-color 0.recording__3s; 
+}
+
+.recording__record-button:active {
+  background-color: darkred;
+}
+
+.recording__text-area {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+
+.recording__publish-button {
+  background-color: #385A69;
+  color: white;
+  border-radius: 4px; 
+  padding: 5px 10px;
+  cursor: pointer;
+}
