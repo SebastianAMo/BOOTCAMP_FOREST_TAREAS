@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>WSA project</title>
+</head>
+<body>
+    <!--wrapper grid-->
+    <div class="wrapper--grid">
+        <header class="header"> 
+            <div class="header--content">
+                <figure class="header--figure">
+                    <img 
+                        alt="microfe" 
+                        class="header--figure__img" 
+                        src="asset/microf.svg">
+                    <figcaption class="header--figure__figcaption"></figcaption>
+                </figure>
+                <h2 class="header__title">ProyectoWSA</h2>
+            </div>
+            <a class="header__link" href="#about">About</a>
+        </header>
+        <main class="main-content">
+            <!-- Posts -->
+        </main>
+        <section class="recording">
+            <button id="recording__record-button" class="recording__record-button">Grabar</button>
+            <textarea id="recording__text-area"  class="recording__text-area" placeholder="Graba algo"></textarea>
+            <button class="recording__publish-button">Publicar</button>
+        </section>
+        <section id="about" class="about-section">
+            <h2>ProyectoWSA</h2>
+            <p>Este proyecto es propuesto en el BOOTCAMP de FOREST sobre desarrollo web para probar el aprendizaje en la parte de frontend.</p>
+            <a href="https://github.com/F-O-R-E-S-T/web-bootcamp-2023/" target="_blank">Enlace al repositorio en GitHub del BOOTCAMP</a>
+            <p> Este pagina cuenta con los siguientes comandos por voz:</p>
+            <ul>
+                <li>azul: cambia el color a azul del texto de donde se edita el texto</li>
+                <li>rojo: cambia el color a rojo del texto de donde se edita el texto</li>
+                <li>negro: cambia el color a negro del texto de donde se edita el texto</li>
+            </ul>
+            <p>Y las siguientes palabaras para efectos en el microfono por voz:</p>
+            <ul>
+                <li>Rebota</li>
+                <li>Sorpresa</li>
+                <li>Salta</li>
+                <li>Sigilo</li>
+                <li>limpia -> para quitar los efectos</li>
+            </ul>
+
+              
+        </section>
+        <footer class="footer-section">
+            <p>Sebastian Agudelo Morales</p>
+        </footer>
+    </div>  
+
+    <script src="https://unpkg.com/fast-levenshtein@2.0.6/levenshtein.js"></script>
+    <script type="module" src="src/main.js"></script>
+
+</body>
+</html>

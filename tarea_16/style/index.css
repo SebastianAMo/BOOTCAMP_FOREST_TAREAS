@@ -1,0 +1,29 @@
+@import url(./layout.css);
+@import url(./header.css);
+@import url(./recording.css);
+@import url(./content.css);
+
+:root {
+  --main: #91A4AC;
+  --links: #0ca2eb;
+  --background: #79919C;
+  --letter: #ffffff;
+  --other: #607C8A;
+  --other2: #475A64;
+
+  --adobe1: #90A3AB;
+  --adobe2: #80CCED;
+  --adobe3: #C3DDE8;
+  --adobe4: #385A69;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--adobe3);
+  overflow-anchor: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
